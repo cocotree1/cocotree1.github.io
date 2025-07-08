@@ -1,1 +1,74 @@
+p {
+  color: red;
+  font-size: 50px;
+  font-family: "Arial", sans-serif;
+}
+#id1 {
+  font-size: 500%;
+}
 
+h2 {
+  font-size: 500%
+}
+
+a {
+  color: lightgreen;
+}
+
+div {
+  border: 1px solid black;
+  margin: 100px 25px 25px 25px;
+  padding: 25px 25px 25px 25px;
+  background-color: blue;
+}
+
+#id2 {
+  border: 10px solid darkblue;
+}
+
+.hover1 {
+  background-color: #FF0000;
+  color: white;
+}
+
+.hover1:hover {
+  animation: cool 3s ease-in-out infinite;
+}
+
+@keyframes cool {
+  0% { background-color: #FF0000;}
+  33% {background-color: #00ff00;}
+  66% {background-color: #0000FF;}
+  100% {background-color: #FF0000;}
+}
+
+.lift {
+  box-shadow: 0 4px 6px rgba(0,0,0,1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+}
+
+verysmall {
+  font-size: 30%;
+}
+/*
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: typing 3s steps(30, end), blink-caret .75s step-end infinite;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+*/
