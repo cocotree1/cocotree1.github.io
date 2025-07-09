@@ -38,7 +38,7 @@ div {
 
 @keyframes cool {
   0% { background-color: #FF0000;}
-  33% {background-color: #00ff00;}
+  33% {background-color: #00FF00;}
   66% {background-color: #0000FF;}
   100% {background-color: #FF0000;}
 }
