@@ -1,7 +1,6 @@
 p {
-  color: red;
+  color: #5EABD6;
   font-size: 50px;
-  background-color: blue;
   font-family: "Arial", sans-serif;
 }
 #id1 {
@@ -13,23 +12,23 @@ h2 {
 }
 
 a {
-  color: lightgreen;
+  color: #E14434;
 }
 
 div {
   border: 1px solid black;
   margin: 100px 25px 25px 25px;
   padding: 25px 25px 25px 25px;
-  background-color: blue;
+  background-color: #FFB4B4;
 }
 
 #id2 {
-  border: 10px solid darkblue;
+  border: 10px solid #E14434;
 }
 
 .hover1 {
-  background-color: #FF0000;
-  color: white;
+  background-color: E14434;
+  color: #FFB4B4;
 }
 
 .hover1:hover {
@@ -37,10 +36,10 @@ div {
 }
 
 @keyframes cool {
-  0% { background-color: #FF0000;}
-  33% {background-color: #00FF00;}
-  66% {background-color: #0000FF;}
-  100% {background-color: #FF0000;}
+  0% { background-color: #E14434;}
+  33% {background-color: #5EABD6;}
+  66% {background-color: #FEFBC7;}
+  100% {background-color: #E14434;}
 }
 
 .lift {
